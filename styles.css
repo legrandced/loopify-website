@@ -5,6 +5,16 @@
 }
 @font-face {
     font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Montserrat';
     src: url('fonts/Montserrat-Regular.woff2') format('woff2');
     font-weight: 400;
 }
@@ -18,7 +28,7 @@ body {
 }
 
 header {
-    background-color: #3C3C3C;
+    background-color: #F2F4F5;
     padding: 1px;
     text-align: center;
 }
@@ -32,14 +42,14 @@ header {
 /* Section Hero */
 .hero-section {
     background-color: #F2F4F5;
-    padding: 40px 20px 1px 20px;
+    padding: 0px 20px 1px 20px;
     text-align: center;
 }
 
 .hero-content h1 {
     font-size: 36px;
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .hero-content .highlight {
@@ -77,11 +87,13 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 40px 20px;
 }
 
 .partner-logo {
+    max-height: 40px;
     max-width: 150px;
-    margin: 10px 20px;
+    margin: 10px 40px;
     filter: grayscale(100%);
 }
 
