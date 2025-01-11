@@ -74,7 +74,7 @@ header {
 
 .launch-date {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     color: #555;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -101,7 +101,8 @@ header {
 
 .event-image {
     width: 100%;
-    height: auto;
+    /*max-width: 200px; !* Limit the image size *!*/
+    height: auto; /* Maintain aspect ratio */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer; /* Indicates clickable images */
